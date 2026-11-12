@@ -1,39 +1,32 @@
-**Welcome to your Base44 project** 
+AI Resume Screening System
 
-**About**
+An AI-powered Resume Screening System designed to streamline the recruitment process by analyzing resumes and evaluating candidates based on job requirements. The system helps recruiters identify suitable candidates efficiently through automated resume screening and candidate matching.
 
-View and Edit  your app on [Base44.com](http://Base44.com) 
+Project Overview
 
-This project contains everything you need to run your app locally.
+The AI Resume Screening System simplifies the hiring process by reducing manual resume evaluation and improving candidate selection efficiency.
 
-**Edit the code in your local development environment**
+Key Features
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+- Automated resume screening
+- Candidate evaluation based on job requirements
+- Resume analysis and matching
+- User-friendly interface
+- Efficient recruitment workflow
 
-**Prerequisites:** 
+Technologies Used
 
-1. Clone the repository using the project's Git URL 
-2. Navigate to the project directory
-3. Install dependencies: `npm install`
-4. Create an `.env.local` file and set the right environment variables
+- React.js
+- TypeScript
+- Python / Flask
+- Machine Learning
 
-```
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
+Project Type
 
-e.g.
-VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
-VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
-```
+Academic Major Project – MCA (2024–2026)
 
-Run the app: `npm run dev`
+Live Demo
 
-**Publish your changes**
+Explore the live application here:
 
-Open [Base44.com](http://Base44.com) and click on Publish.
-
-**Docs & Support**
-
-Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
+"AI Resume Screening System –https://rich-smart-hire-pulse.base44.app

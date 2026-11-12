@@ -1,0 +1,29 @@
+{
+  "name": "Feedback",
+  "type": "object",
+  "properties": {
+    "rating": {
+      "type": "number",
+      "description": "Rating 1-5"
+    },
+    "comment": {
+      "type": "string",
+      "description": "Feedback comment"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "general",
+        "bug",
+        "feature",
+        "improvement"
+      ],
+      "default": "general",
+      "description": "Feedback category"
+    }
+  },
+  "required": [
+    "rating",
+    "comment"
+  ]
+}

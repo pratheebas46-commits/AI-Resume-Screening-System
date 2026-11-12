@@ -1,0 +1,96 @@
+{
+  "name": "Resume",
+  "type": "object",
+  "properties": {
+    "candidate_name": {
+      "type": "string",
+      "description": "Full name of the candidate"
+    },
+    "email": {
+      "type": "string",
+      "description": "Candidate email"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Candidate phone number"
+    },
+    "job_role": {
+      "type": "string",
+      "enum": [
+        "Software Engineer",
+        "Data Scientist",
+        "Web Developer",
+        "ML Engineer",
+        "DevOps Engineer",
+        "Cybersecurity Analyst",
+        "Cloud Engineer",
+        "AI Engineer",
+        "Data Analyst",
+        "Backend Developer",
+        "Frontend Developer",
+        "Mobile Developer"
+      ],
+      "description": "Target job role"
+    },
+    "file_url": {
+      "type": "string",
+      "description": "Uploaded resume file URL"
+    },
+    "file_name": {
+      "type": "string",
+      "description": "Original file name"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Extracted skills from the resume"
+    },
+    "matched_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Skills matching the job role"
+    },
+    "missing_skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Skills missing for the job role"
+    },
+    "score": {
+      "type": "number",
+      "description": "Match score 0-100"
+    },
+    "education": {
+      "type": "string",
+      "description": "Education details"
+    },
+    "experience": {
+      "type": "string",
+      "description": "Experience summary"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI-generated resume summary"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "processing",
+        "completed",
+        "error"
+      ],
+      "default": "processing",
+      "description": "Processing status"
+    }
+  },
+  "required": [
+    "candidate_name",
+    "job_role",
+    "file_url"
+  ]
+}
